@@ -37,20 +37,11 @@
   font-weight: 600;
 }
 
-p {
-  display: inline-block;
-  padding: 10px;
-}
-
 img {
   width: 300px;
   height: 250px;
   display: inline;
   padding: 5px;
-}
-
-img:hover {
-  animation: ease-in-out;
 }
 
 .content2 {
@@ -61,7 +52,6 @@ img:hover {
   z-index: -1;
   text-align: center;
   width: 100%;
-  color: #202020;
 }
 
 .fly2 {
@@ -74,4 +64,32 @@ img:hover {
   100% {
     top: 400px;
   }
+}
+
+/* Cross Course Rainy Days Page */
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+ul,
+a {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: line-through;
+}
+
+.arrow {
+  text-align: center;
+  display: grid;
+  margin: -35px;
 }
